@@ -1,1 +1,0 @@
-{"name":"Local: left_factoring","url":"c:\\Users\\USER\\Desktop\\Alif\\Lab6\\left_factoring.cpp","tests":[{"id":1762657768970,"input":"A = aB | aC | #\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\USER\\Desktop\\Alif\\Lab6\\left_factoring.cpp","group":"local","local":true}

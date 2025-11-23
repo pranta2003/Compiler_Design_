@@ -1,1 +1,0 @@
-{"name":"Local: Q2_expr_eval","url":"d:\\current semister\\CSE 324\\Final\\cpp_tasks_user_input\\Q2_expr_eval.cpp","tests":[{"id":1763345137806,"input":"( 2 + 3 ) * 4 - 6 / 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\current semister\\CSE 324\\Final\\cpp_tasks_user_input\\Q2_expr_eval.cpp","group":"local","local":true}
