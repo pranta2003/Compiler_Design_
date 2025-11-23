@@ -1,0 +1,41 @@
+%{
+#include <stdio.h>
+#include <stdlib.h>
+
+int yylex();
+void yyerror(const char *s);
+%}
+
+%token NUMBER
+
+%left '+' '-'
+%left '*' '/'
+%left '(' ')'
+
+%%
+
+input:
+      expr '\n'   { printf("Valid expression\n"); }
+    | '\n'        { printf("Empty input\n"); }
+    ;
+
+expr:
+      expr '+' expr
+    | expr '-' expr
+    | expr '*' expr
+    | expr '/' expr
+    | '(' expr ')'
+    | NUMBER
+    ;
+
+%%
+
+void yyerror(const char *s) {
+    printf("Invalid expression\n");
+}
+
+int main() {
+    printf("Enter an expression: ");
+    yyparse();
+    return 0;
+}
