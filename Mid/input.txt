@@ -1,0 +1,6 @@
+int x = 100
+float y = 3.14
+if x > y
+    printf("x is greater");
+else
+    return 0
